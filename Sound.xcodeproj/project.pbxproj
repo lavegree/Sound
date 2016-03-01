@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD31D1031C8548AC00FA8459 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD31D1021C8548AC00FA8459 /* main.m */; };
+		CD31D1061C8548AC00FA8459 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD31D1051C8548AC00FA8459 /* AppDelegate.m */; };
+		CD31D10C1C8548AC00FA8459 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD31D10A1C8548AC00FA8459 /* Main.storyboard */; };
+		CD31D10E1C8548AC00FA8459 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD31D10D1C8548AC00FA8459 /* Assets.xcassets */; };
+		CD31D1111C8548AC00FA8459 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD31D10F1C8548AC00FA8459 /* LaunchScreen.storyboard */; };
+		CD31D11C1C8548AC00FA8459 /* SoundTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD31D11B1C8548AC00FA8459 /* SoundTests.m */; };
+		CD31D1271C8548AC00FA8459 /* SoundUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD31D1261C8548AC00FA8459 /* SoundUITests.m */; };
+		CD31D1361C8548E900FA8459 /* SystemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD31D1351C8548E900FA8459 /* SystemViewController.m */; };
+		CD31D1391C85499C00FA8459 /* AudioToolViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD31D1381C85499C00FA8459 /* AudioToolViewController.m */; };
+		CD31D1671C8555D800FA8459 /* 不想起床铃声（公子歌_歌笙）.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CD31D15B1C8555D800FA8459 /* 不想起床铃声（公子歌_歌笙）.mp3 */; };
+		CD31D1681C8555D800FA8459 /* 十万个冷笑话-大王醉酒（山新）.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CD31D15C1C8555D800FA8459 /* 十万个冷笑话-大王醉酒（山新）.mp3 */; };
+		CD31D1691C8555D800FA8459 /* 史上最温柔最甜美起床铃（冰糖电影）.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CD31D15D1C8555D800FA8459 /* 史上最温柔最甜美起床铃（冰糖电影）.mp3 */; };
+		CD31D16A1C8555D800FA8459 /* 叶清起床闹铃（叶清voasia）.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CD31D15E1C8555D800FA8459 /* 叶清起床闹铃（叶清voasia）.mp3 */; };
+		CD31D16B1C8555D800FA8459 /* 抒情.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CD31D15F1C8555D800FA8459 /* 抒情.mp3 */; };
+		CD31D16C1C8555D800FA8459 /* 欢乐.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CD31D1601C8555D800FA8459 /* 欢乐.mp3 */; };
+		CD31D16D1C8555D800FA8459 /* 治愈.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CD31D1611C8555D800FA8459 /* 治愈.mp3 */; };
+		CD31D16E1C8555D800FA8459 /* 清新.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CD31D1621C8555D800FA8459 /* 清新.mp3 */; };
+		CD31D16F1C8555D800FA8459 /* 自挂东南枝（唐家大小姐）.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CD31D1631C8555D800FA8459 /* 自挂东南枝（唐家大小姐）.mp3 */; };
+		CD31D1701C8555D800FA8459 /* 超萌查水表（新月冰冰）.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CD31D1641C8555D800FA8459 /* 超萌查水表（新月冰冰）.mp3 */; };
+		CD31D1711C8555D800FA8459 /* 零智商-通用版（唐家大小姐）.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CD31D1651C8555D800FA8459 /* 零智商-通用版（唐家大小姐）.mp3 */; };
+		CD31D17B1C85567400FA8459 /* feedtip.wav in Resources */ = {isa = PBXBuildFile; fileRef = CD31D1781C85567400FA8459 /* feedtip.wav */; };
+		CD31D17C1C85567400FA8459 /* netwarning.wav in Resources */ = {isa = PBXBuildFile; fileRef = CD31D1791C85567400FA8459 /* netwarning.wav */; };
+		CD31D17D1C85567400FA8459 /* shake.wav in Resources */ = {isa = PBXBuildFile; fileRef = CD31D17A1C85567400FA8459 /* shake.wav */; };
+		CD31D1801C855AC800FA8459 /* AudioFoundationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD31D17F1C855AC800FA8459 /* AudioFoundationViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD31D1181C8548AC00FA8459 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD31D0F61C8548AC00FA8459 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD31D0FD1C8548AC00FA8459;
+			remoteInfo = Sound;
+		};
+		CD31D1231C8548AC00FA8459 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD31D0F61C8548AC00FA8459 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD31D0FD1C8548AC00FA8459;
+			remoteInfo = Sound;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD31D0FE1C8548AC00FA8459 /* Sound.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sound.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD31D1021C8548AC00FA8459 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD31D1041C8548AC00FA8459 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CD31D1051C8548AC00FA8459 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CD31D10B1C8548AC00FA8459 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD31D10D1C8548AC00FA8459 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD31D1101C8548AC00FA8459 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD31D1121C8548AC00FA8459 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD31D1171C8548AC00FA8459 /* SoundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoundTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD31D11B1C8548AC00FA8459 /* SoundTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoundTests.m; sourceTree = "<group>"; };
+		CD31D11D1C8548AC00FA8459 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD31D1221C8548AC00FA8459 /* SoundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoundUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD31D1261C8548AC00FA8459 /* SoundUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoundUITests.m; sourceTree = "<group>"; };
+		CD31D1281C8548AC00FA8459 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD31D1341C8548E900FA8459 /* SystemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemViewController.h; sourceTree = "<group>"; };
+		CD31D1351C8548E900FA8459 /* SystemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SystemViewController.m; sourceTree = "<group>"; };
+		CD31D1371C85499C00FA8459 /* AudioToolViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioToolViewController.h; sourceTree = "<group>"; };
+		CD31D1381C85499C00FA8459 /* AudioToolViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioToolViewController.m; sourceTree = "<group>"; };
+		CD31D15B1C8555D800FA8459 /* 不想起床铃声（公子歌_歌笙）.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "不想起床铃声（公子歌_歌笙）.mp3"; sourceTree = "<group>"; };
+		CD31D15C1C8555D800FA8459 /* 十万个冷笑话-大王醉酒（山新）.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "十万个冷笑话-大王醉酒（山新）.mp3"; sourceTree = "<group>"; };
+		CD31D15D1C8555D800FA8459 /* 史上最温柔最甜美起床铃（冰糖电影）.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "史上最温柔最甜美起床铃（冰糖电影）.mp3"; sourceTree = "<group>"; };
+		CD31D15E1C8555D800FA8459 /* 叶清起床闹铃（叶清voasia）.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "叶清起床闹铃（叶清voasia）.mp3"; sourceTree = "<group>"; };
+		CD31D15F1C8555D800FA8459 /* 抒情.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "抒情.mp3"; sourceTree = "<group>"; };
+		CD31D1601C8555D800FA8459 /* 欢乐.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "欢乐.mp3"; sourceTree = "<group>"; };
+		CD31D1611C8555D800FA8459 /* 治愈.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "治愈.mp3"; sourceTree = "<group>"; };
+		CD31D1621C8555D800FA8459 /* 清新.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "清新.mp3"; sourceTree = "<group>"; };
+		CD31D1631C8555D800FA8459 /* 自挂东南枝（唐家大小姐）.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "自挂东南枝（唐家大小姐）.mp3"; sourceTree = "<group>"; };
+		CD31D1641C8555D800FA8459 /* 超萌查水表（新月冰冰）.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "超萌查水表（新月冰冰）.mp3"; sourceTree = "<group>"; };
+		CD31D1651C8555D800FA8459 /* 零智商-通用版（唐家大小姐）.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "零智商-通用版（唐家大小姐）.mp3"; sourceTree = "<group>"; };
+		CD31D1781C85567400FA8459 /* feedtip.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = feedtip.wav; sourceTree = "<group>"; };
+		CD31D1791C85567400FA8459 /* netwarning.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = netwarning.wav; sourceTree = "<group>"; };
+		CD31D17A1C85567400FA8459 /* shake.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = shake.wav; sourceTree = "<group>"; };
+		CD31D17E1C855AC800FA8459 /* AudioFoundationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioFoundationViewController.h; sourceTree = "<group>"; };
+		CD31D17F1C855AC800FA8459 /* AudioFoundationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioFoundationViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD31D0FB1C8548AC00FA8459 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD31D1141C8548AC00FA8459 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD31D11F1C8548AC00FA8459 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD31D0F51C8548AC00FA8459 = {
+			isa = PBXGroup;
+			children = (
+				CD31D1341C8548E900FA8459 /* SystemViewController.h */,
+				CD31D1351C8548E900FA8459 /* SystemViewController.m */,
+				CD31D1371C85499C00FA8459 /* AudioToolViewController.h */,
+				CD31D1381C85499C00FA8459 /* AudioToolViewController.m */,
+				CD31D17E1C855AC800FA8459 /* AudioFoundationViewController.h */,
+				CD31D17F1C855AC800FA8459 /* AudioFoundationViewController.m */,
+				CD31D1591C8555D800FA8459 /* resource */,
+				CD31D1001C8548AC00FA8459 /* Sound */,
+				CD31D11A1C8548AC00FA8459 /* SoundTests */,
+				CD31D1251C8548AC00FA8459 /* SoundUITests */,
+				CD31D0FF1C8548AC00FA8459 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD31D0FF1C8548AC00FA8459 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD31D0FE1C8548AC00FA8459 /* Sound.app */,
+				CD31D1171C8548AC00FA8459 /* SoundTests.xctest */,
+				CD31D1221C8548AC00FA8459 /* SoundUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD31D1001C8548AC00FA8459 /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				CD31D1041C8548AC00FA8459 /* AppDelegate.h */,
+				CD31D1051C8548AC00FA8459 /* AppDelegate.m */,
+				CD31D10A1C8548AC00FA8459 /* Main.storyboard */,
+				CD31D10D1C8548AC00FA8459 /* Assets.xcassets */,
+				CD31D10F1C8548AC00FA8459 /* LaunchScreen.storyboard */,
+				CD31D1121C8548AC00FA8459 /* Info.plist */,
+				CD31D1011C8548AC00FA8459 /* Supporting Files */,
+			);
+			path = Sound;
+			sourceTree = "<group>";
+		};
+		CD31D1011C8548AC00FA8459 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD31D1021C8548AC00FA8459 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CD31D11A1C8548AC00FA8459 /* SoundTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD31D11B1C8548AC00FA8459 /* SoundTests.m */,
+				CD31D11D1C8548AC00FA8459 /* Info.plist */,
+			);
+			path = SoundTests;
+			sourceTree = "<group>";
+		};
+		CD31D1251C8548AC00FA8459 /* SoundUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD31D1261C8548AC00FA8459 /* SoundUITests.m */,
+				CD31D1281C8548AC00FA8459 /* Info.plist */,
+			);
+			path = SoundUITests;
+			sourceTree = "<group>";
+		};
+		CD31D1591C8555D800FA8459 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				CD31D15A1C8555D800FA8459 /* big */,
+				CD31D1661C8555D800FA8459 /* small */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+		CD31D15A1C8555D800FA8459 /* big */ = {
+			isa = PBXGroup;
+			children = (
+				CD31D15B1C8555D800FA8459 /* 不想起床铃声（公子歌_歌笙）.mp3 */,
+				CD31D15C1C8555D800FA8459 /* 十万个冷笑话-大王醉酒（山新）.mp3 */,
+				CD31D15D1C8555D800FA8459 /* 史上最温柔最甜美起床铃（冰糖电影）.mp3 */,
+				CD31D15E1C8555D800FA8459 /* 叶清起床闹铃（叶清voasia）.mp3 */,
+				CD31D15F1C8555D800FA8459 /* 抒情.mp3 */,
+				CD31D1601C8555D800FA8459 /* 欢乐.mp3 */,
+				CD31D1611C8555D800FA8459 /* 治愈.mp3 */,
+				CD31D1621C8555D800FA8459 /* 清新.mp3 */,
+				CD31D1631C8555D800FA8459 /* 自挂东南枝（唐家大小姐）.mp3 */,
+				CD31D1641C8555D800FA8459 /* 超萌查水表（新月冰冰）.mp3 */,
+				CD31D1651C8555D800FA8459 /* 零智商-通用版（唐家大小姐）.mp3 */,
+			);
+			path = big;
+			sourceTree = "<group>";
+		};
+		CD31D1661C8555D800FA8459 /* small */ = {
+			isa = PBXGroup;
+			children = (
+				CD31D1781C85567400FA8459 /* feedtip.wav */,
+				CD31D1791C85567400FA8459 /* netwarning.wav */,
+				CD31D17A1C85567400FA8459 /* shake.wav */,
+			);
+			path = small;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD31D0FD1C8548AC00FA8459 /* Sound */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD31D12B1C8548AD00FA8459 /* Build configuration list for PBXNativeTarget "Sound" */;
+			buildPhases = (
+				CD31D0FA1C8548AC00FA8459 /* Sources */,
+				CD31D0FB1C8548AC00FA8459 /* Frameworks */,
+				CD31D0FC1C8548AC00FA8459 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sound;
+			productName = Sound;
+			productReference = CD31D0FE1C8548AC00FA8459 /* Sound.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD31D1161C8548AC00FA8459 /* SoundTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD31D12E1C8548AD00FA8459 /* Build configuration list for PBXNativeTarget "SoundTests" */;
+			buildPhases = (
+				CD31D1131C8548AC00FA8459 /* Sources */,
+				CD31D1141C8548AC00FA8459 /* Frameworks */,
+				CD31D1151C8548AC00FA8459 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD31D1191C8548AC00FA8459 /* PBXTargetDependency */,
+			);
+			name = SoundTests;
+			productName = SoundTests;
+			productReference = CD31D1171C8548AC00FA8459 /* SoundTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD31D1211C8548AC00FA8459 /* SoundUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD31D1311C8548AD00FA8459 /* Build configuration list for PBXNativeTarget "SoundUITests" */;
+			buildPhases = (
+				CD31D11E1C8548AC00FA8459 /* Sources */,
+				CD31D11F1C8548AC00FA8459 /* Frameworks */,
+				CD31D1201C8548AC00FA8459 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD31D1241C8548AC00FA8459 /* PBXTargetDependency */,
+			);
+			name = SoundUITests;
+			productName = SoundUITests;
+			productReference = CD31D1221C8548AC00FA8459 /* SoundUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD31D0F61C8548AC00FA8459 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = chang;
+				TargetAttributes = {
+					CD31D0FD1C8548AC00FA8459 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					CD31D1161C8548AC00FA8459 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = CD31D0FD1C8548AC00FA8459;
+					};
+					CD31D1211C8548AC00FA8459 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = CD31D0FD1C8548AC00FA8459;
+					};
+				};
+			};
+			buildConfigurationList = CD31D0F91C8548AC00FA8459 /* Build configuration list for PBXProject "Sound" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD31D0F51C8548AC00FA8459;
+			productRefGroup = CD31D0FF1C8548AC00FA8459 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD31D0FD1C8548AC00FA8459 /* Sound */,
+				CD31D1161C8548AC00FA8459 /* SoundTests */,
+				CD31D1211C8548AC00FA8459 /* SoundUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD31D0FC1C8548AC00FA8459 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD31D1111C8548AC00FA8459 /* LaunchScreen.storyboard in Resources */,
+				CD31D1701C8555D800FA8459 /* 超萌查水表（新月冰冰）.mp3 in Resources */,
+				CD31D1691C8555D800FA8459 /* 史上最温柔最甜美起床铃（冰糖电影）.mp3 in Resources */,
+				CD31D1671C8555D800FA8459 /* 不想起床铃声（公子歌_歌笙）.mp3 in Resources */,
+				CD31D16F1C8555D800FA8459 /* 自挂东南枝（唐家大小姐）.mp3 in Resources */,
+				CD31D16B1C8555D800FA8459 /* 抒情.mp3 in Resources */,
+				CD31D1681C8555D800FA8459 /* 十万个冷笑话-大王醉酒（山新）.mp3 in Resources */,
+				CD31D17C1C85567400FA8459 /* netwarning.wav in Resources */,
+				CD31D16D1C8555D800FA8459 /* 治愈.mp3 in Resources */,
+				CD31D17D1C85567400FA8459 /* shake.wav in Resources */,
+				CD31D17B1C85567400FA8459 /* feedtip.wav in Resources */,
+				CD31D10E1C8548AC00FA8459 /* Assets.xcassets in Resources */,
+				CD31D16A1C8555D800FA8459 /* 叶清起床闹铃（叶清voasia）.mp3 in Resources */,
+				CD31D10C1C8548AC00FA8459 /* Main.storyboard in Resources */,
+				CD31D16C1C8555D800FA8459 /* 欢乐.mp3 in Resources */,
+				CD31D1711C8555D800FA8459 /* 零智商-通用版（唐家大小姐）.mp3 in Resources */,
+				CD31D16E1C8555D800FA8459 /* 清新.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD31D1151C8548AC00FA8459 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD31D1201C8548AC00FA8459 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD31D0FA1C8548AC00FA8459 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD31D1801C855AC800FA8459 /* AudioFoundationViewController.m in Sources */,
+				CD31D1061C8548AC00FA8459 /* AppDelegate.m in Sources */,
+				CD31D1361C8548E900FA8459 /* SystemViewController.m in Sources */,
+				CD31D1031C8548AC00FA8459 /* main.m in Sources */,
+				CD31D1391C85499C00FA8459 /* AudioToolViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD31D1131C8548AC00FA8459 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD31D11C1C8548AC00FA8459 /* SoundTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD31D11E1C8548AC00FA8459 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD31D1271C8548AC00FA8459 /* SoundUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD31D1191C8548AC00FA8459 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD31D0FD1C8548AC00FA8459 /* Sound */;
+			targetProxy = CD31D1181C8548AC00FA8459 /* PBXContainerItemProxy */;
+		};
+		CD31D1241C8548AC00FA8459 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD31D0FD1C8548AC00FA8459 /* Sound */;
+			targetProxy = CD31D1231C8548AC00FA8459 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD31D10A1C8548AC00FA8459 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD31D10B1C8548AC00FA8459 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD31D10F1C8548AC00FA8459 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD31D1101C8548AC00FA8459 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD31D1291C8548AD00FA8459 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CD31D12A1C8548AD00FA8459 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD31D12C1C8548AD00FA8459 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Sound/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaiy.Sound;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CD31D12D1C8548AD00FA8459 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Sound/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaiy.Sound;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CD31D12F1C8548AD00FA8459 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SoundTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaiy.SoundTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sound.app/Sound";
+			};
+			name = Debug;
+		};
+		CD31D1301C8548AD00FA8459 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SoundTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaiy.SoundTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sound.app/Sound";
+			};
+			name = Release;
+		};
+		CD31D1321C8548AD00FA8459 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SoundUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaiy.SoundUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Sound;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CD31D1331C8548AD00FA8459 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SoundUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaiy.SoundUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Sound;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD31D0F91C8548AC00FA8459 /* Build configuration list for PBXProject "Sound" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD31D1291C8548AD00FA8459 /* Debug */,
+				CD31D12A1C8548AD00FA8459 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD31D12B1C8548AD00FA8459 /* Build configuration list for PBXNativeTarget "Sound" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD31D12C1C8548AD00FA8459 /* Debug */,
+				CD31D12D1C8548AD00FA8459 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CD31D12E1C8548AD00FA8459 /* Build configuration list for PBXNativeTarget "SoundTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD31D12F1C8548AD00FA8459 /* Debug */,
+				CD31D1301C8548AD00FA8459 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CD31D1311C8548AD00FA8459 /* Build configuration list for PBXNativeTarget "SoundUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD31D1321C8548AD00FA8459 /* Debug */,
+				CD31D1331C8548AD00FA8459 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD31D0F61C8548AC00FA8459 /* Project object */;
+}
